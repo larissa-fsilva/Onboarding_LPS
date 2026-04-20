@@ -82,5 +82,3 @@ def plotBoxplot(dataset,n_rings):
     plt.ylabel('Values')
     plt.grid(True, which='both', axis='y', linestyle='--', linewidth=0.5, alpha=0.7)
     plt.show()
-
-print(plotBoxplot(pd.read_csv('subset.csv')['TrigEMClusterContainer.ringsE'].tolist(),100)) 
